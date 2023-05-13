@@ -227,19 +227,20 @@
                             Through this challenge, I was able to improve my understanding of objects in GameMaker Studio 2 and develop more advanced code for creating 
                             health bars and other related elements.
                         </p>
+                        <script src="https://gist.github.com/filipethornhill/b75f127e3e45f221ecb68cd21758948f.js"></script>
                         <h3>Assigning hit points and setting the width</h3>
                         <p>
                             Initially, I faced the issue of how to assign hit points without increasing the width of the health bar. 
                             To address this, I learned to divide the hit points by the maximum hit points to create a percentage, 
                             then multiply the percentage by the maximum health bar width to get the actual width of the health bar. 
                         </p>
+                        <script src="https://gist.github.com/filipethornhill/cbcaf58a112cc57b81dbcf3070f3e417.js"></script>
                         <h3>Forgeting to check the drawing colours</h3>
                         <p>
-                            I also encountered issues with the color of the health bar background, as it was not set to white, 
-                            which made it difficult to see the actual health bar.
-
-                            <!--Insert images of the health bar background red and white to show your undersand/solution or show the code-->
+                            During development, I encountered issues with the health bar seemingly not working. 
+                            I eventually realized that I forgot to set the background drawing color of the health bar to white. The code below shows the fixed version.
                         </p>
+                        <script src="https://gist.github.com/filipethornhill/8743bc2cb0dcc63e0f5dc4753e4b1d09.js"></script>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -250,19 +251,17 @@
 
                 <div class="project shadow-large">
                     <div class="project no-image">
-                        <h3>Game states</h3>
+                        <h3>Spawning zombie instances</h3>
                         
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac mi at justo aliquet auctor. Aenean elementum semper augue, 
-                            eu dignissim dolor rutrum sed. Pellentesque suscipit metus vel risus pretium, in posuere arcu viverra. Nullam euismod, nisi vitae bibendum 
-                            imperdiet, est lorem lacinia ipsum, nec dapibus nulla purus vel justo. Fusce rutrum laoreet sapien, non imperdiet quam viverra nec. 
-                            Sed suscipit eleifend ex in dictum. Sed fringilla mauris ut sapien malesuada, vel facilisis nulla congue. Vivamus at felis vel augue 
-                            rhoncus rutrum sit amet ut mi. Etiam ultrices augue nec risus pellentesque, eu eleifend neque tincidunt. Curabitur hendrerit ante eget mi 
-                            lobortis, ac feugiat est facilisis. Nulla facilisi. 
-                            Sed vel ornare enim. Donec iaculis lorem vel risus tincidunt malesuada. Sed luctus dui non nibh malesuada, quis blandit eros tincidunt. 
-                            Duis elementum purus eu vestibulum vehicula.
+                            The challenge was to figure out how to spawn zombies equally from multiple spawn points in the game. 
+                            Initially, I tried to divide the number of spawn points by the number of zombies to be spawned in each wave. 
+                            However, this proved to be difficult to implement, especially when I had an unequal number of spawn points or zombies to spawn. 
+                            This made it more difficult to code.
+
+                            So, I decided to simplify the code by randomly choosing a spawn point to spawn from.
                         </p>
-                       
+                        <script src="https://gist.github.com/filipethornhill/c8ff3562f1052c95556d7957bf98f3e6.js"></script>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
