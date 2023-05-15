@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cakes for Sale</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+
+
+    <body>
+        <header>
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo image">
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="current" href="./cakes_for_sale.html">Cakes for sale</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="contactus.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        
+
+        <main>
+            <img id="web_banner" src="images/web_banner1200.png" alt="web_banner">
+            <div class="main_heading">
+              <h1>Cakes for Sale</h1>
+            </div>
+            <!--PRODUCT SECTION INCLUDES TWO LISTS, HEADING AND CLICK TO LARGER IMAGE-->
+            <section class="grid-container">
+              <div class="grid-item-products">
+                <a href="images/large/tiramisu640.jpg" target="_blank">
+                  <img src="images/small/tiramisu300.jpg" alt="tiramisu">
+                </a>
+                <h2>Tiramisu</h2>
+                <br><p>Contains gluten, dairy, nuts and eggs. 
+                <br>Strawberry cakes contain strawberries.</p>
+              </div>   
+
+
+              <div class="grid-item-products">   
+                <a href="images/large/lemonCake900.jpg" target="_blank">
+                  <img src="images/small/lemonCake300.jpg" alt="lemon cake">
+                </a>
+                <h2>Lemon Cake</h2>
+                <br><p>Contains gluten, dairy, nuts and eggs. 
+                <br>Strawberry cakes contain strawberries.</p>
+              </div>  
+
+
+              <div class="grid-item-products">   
+                <a href="images/large/cheeseCake640.jpg" target="_blank">
+                  <img src="images/small/cheeseCake300.jpg" alt="cheese cake">
+                </a>
+                <h2>Cheese Cake</h2>
+                <br><p>Contains gluten and dairy</p>
+              </div>
+
+
+              <div class="grid-item-products">
+                <a href="images/large/brownie640.jpg" target="_blank">
+                  <img src="images/small/brownie300.jpg" alt="brownie">
+                </a>
+                <h2>Brownie</h2>
+                <br><p>Contains dairy, nuts and eggs</p> 
+              </div>
+
+
+              <div class="grid-item-products">
+                <a href="images/large/cupcake640.jpg" target="_blank">
+                  <img src="images/small/cupcake300.jpg" alt="cupcake">
+                </a>
+                <h2>Cupcake</h2>
+                <br><p>Contains gluten, dairy, nuts and eggs</p> 
+              </div>
+
+
+              <div class="grid-item-products">
+                <a href="images/large/macaron640.jpg" target="_blank">
+                  <img src="images/small/macaron300.jpg" alt="Macaron">
+<<<<<<< HEAD
+                </a>                
+=======
+                </a>  
+                <h2>Macaron</h2>              
+>>>>>>> 322150d41b85817e59b981efa20af3973bcc6971
+                <br><p>Contains gluten, dairy, nuts and eggs</p>
+              </div>
+            </section>
+              
+
+          
+            <!--PRICES SECTION INCLUDES TABLE AND HEADING-->
+            <section>
+                <div class="sub_heading">
+                    <h3>Prices</h3>
+                </div>  
+                
+                <table class="prices">
+                    <tr>
+                        <th>Cake Size</th>
+                        <th>Suitable for</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Small</td>
+                        <td>8-10 people</td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                        <td>Medium</td>
+                        <td>10-12 people</td>
+                        <td>$60.00</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>16-20 people</td>
+                        <td>$100.00</td>
+                    </tr>
+                </table>
+            </section>
+        
+
+
+            <!--HOW TO ORDER SECTION INCLUDES HEADING, PARAGRAPH AND CAKE ORDERING FORM-->
+            <section>
+                <div class="sub_heading">
+                    <h3>How to order</h3>
+                </div>
+                <p>If you’re interested in ordering a cake for your special occasion, let us know!</p>
+                <fieldset>
+            
+                    <label for = "fname">First Name:</label> <br>
+                    <input type = "text" id = "fname" name = "fname"> <br><br><br>
+
+
+                    <label for = "email">Email Address:</label> <br>
+                    <input type = "email" id = "email" name = "lname"> <br><br><br>
+
+
+                    <label for = "phone">Phone number:</label> <br>
+                    <input type = "tel" id = "phone" name = "phone"> <br><br><br>
+
+
+
+
+                    <label for="cakes">Select a cake:</label><br>
+                    <select id = "cakes" name = "cakes">
+                        <option value = "select your cake">select your cake</option>
+                        <option value = "Tiramisu">Tiramisu</option>
+                        <option value = "lemon cake">lemon cake</option>
+                        <option value = "cheese cake">cheese cake</option>
+                        <option value = "Brownie">Brownie</option>
+                        <option value = "Cupcake">Cupcake</option>
+                        <option value = "Macaron">Macaron</option>
+                    </select><br><br><br>
+
+
+                    <label for = "date_required">Date required</label><br>
+                    <input type = "date" id = "date_required" name = "date_required"><br><br><br>
+
+                    <input type = "submit" value = "Submit"> &nbsp;
+                </fieldset>
+            </section>
+        </main>
+
+
+        
+        <footer>
+          2023 - Filipe Thornhill
+
+          <a href="https://www.facebook.com/" class="fa fa-facebook fa-2x"></a>
+          <a href="https://www.instagram.com/" class="fa fa-instagram fa-2x"></a>
+      </footer>
+    </body>
+</html>
