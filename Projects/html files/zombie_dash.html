@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Pixelated Miner</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Zombie Dash</title>
+	<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../../favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="style_gist.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/styles.css" rel="stylesheet">
+    <link href="../../style_gist.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="index.html" class="no-scroll">Home</a>
+                <a href="../../index.html" class="no-scroll">Home</a>
             </li>            
             <li>
                 <a href="#about">Project Summary</a>
@@ -55,9 +55,9 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>The Pixelated Miner</h1>
+            <h1>Zombie Dash</h1>
             <h2>Built with GameMaker Studio</h2>
-            <a href="The Pixelated Miner.exe" download class="btn-rounded-white">Download Project</a>
+            <a href="../Zombie Dash.zip" download class="btn-rounded-white">Download Project</a>
         </div>
         <!-- End #lead-content -->
 
@@ -80,15 +80,15 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        The Pixelated Miner is a 2D video game programmed in GML, drawing inspiration from popular titles such as Terraria and Minecraft. 
-                        Players must excavate and collect randomly generated ores scattered throughout the game's world map, with the objective of amassing 100 points within a 60-second time limit. 
-                        The game's intuitive controls provide a user-friendly experience, while the use of procedurally generated ore deposits ensures a unique and dynamic gameplay experience with each playthrough
+                        Zombie Dash is a game where the player fights increasingly diffcult waves of zombies. It features health bars, a gun with animated bullets, and sprite animations. 
+                        Inspired by Bloon Tower Defense, the game was created during a game jam and later improved over five weeks. 
+                        Challenges included creating health bars and implementing a wave-based zombie spawn system. The game is available on Windows 10, 
+                        with compatibility for other operating systems untested.
                     <p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End #about -->
     <div id="credits">
         <div class="container">
             <div class="row">
@@ -97,12 +97,18 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Credit to <a href="https://www.youtube.com/@ShaunJS">Shaun Spalding</a> for the movement code.
+                        Credit to <a href="https://www.youtube.com/@ShaunJS">Shaun Spalding</a> for the movement code, 
+                        <a href="https://rgsdev.itch.io/animated-pixel-art-shooter-character-and-zombie">RGS_Dev</a> 
+                        for the zombie and player character sprites, <a href="https://bdragon1727.itch.io/fire-pixel-bullet-16x16">BDragon1727</a> for the bullet sprite, 
+                        <a href="https://honestheirlooms.itch.io/small-retro-desert-pack">honestheirlooms</a> for the background images
+                         and  <a href="https://gamebaker.itch.io/simple-postapo-tileset">Postapo</a> for the ground sprite.
                     <p>
                 </div>
             </div>
         </div>
     </div>
+    <!-- End #about -->
+
     <div id="experience" class="background-alt">
         <h2 class="heading">Features and functionalities</h2>
         
@@ -113,26 +119,24 @@
             
           
             <ul>
-                <h2>Torches</h2>
+                <h2>Health Bars</h2>
                 <li>
                   
-                    When a player places a torch, it emits light in a circular area around it, illuminating the surrounding area and making it easier to navigate.
+                    Displays the player's current health level and provides a visual representation of the player's health.
 
                 </li>
-                <h2>ladders</h2>
+                <h2>Shooting</h2>
                 <li>
-            
-                    Ladders are a versatile tool in The Pixelated Miner that allow players to climb up and down walls, making it easier to explore the underground caves.
+                    This feature allows the player to shoot bullets at enemies and animates the bullets as they travel through the air.
+             
                 </li>
-                <h2>Lighting system</h2>
+                <h2>Sprite animations</h2>
                 <li>
-                    
-                    As players move through the underground caves, the lighting shifts to reflect their position and create a sense of depth and atmosphere.
+                    Animates the movement of characters and adds visual interest to the game<br>
                 </li>
-                <h2> Random Resource Generation</h2>
+                <h2>Simple pathfinding</h2>
                 <li>
-                   The Pixelated Miner uses a random resource generation system to create a dynamic and changing underground world. In this system, 
-                    resources are generated randomly throughout the game world, with the most common ores appearing near the surface and rarer resources appearing deeper underground.
+                    Enables enemies to move towards the player and helps to create more engaging gameplay.
                 </li>
             </ul>
 
@@ -148,41 +152,37 @@
 
     <div id="education">
         <h2 class="heading">Technologies used</h2>
-        <div class="education-block">
-            <h3>Aseprite</h3>
-            
-            <h4></h4>
-            This pixel art editor was used to create the game's sprites and animations. 
-            Its user-friendly interface and powerful drawing tools enabled the creation of pixel 
-            art assets that helped to complete the game.
 
-        </div>
 
         <div class="education-block">
-            <h3>GameMaker Studio 1.4</h3>
+            <h3>GameMaker Studio 2</h3>
             
             <h4></h4>
-            This game engine was used to develop the core gameplay mechanics, including character movement and resource collection. 
-            The engine's built-in code editor allowed for rapid prototyping and iteration during the development process.
-
+            A powerful game development tool that offers an easy-to-use drag-and-drop interface as well as a scripting language for more advanced users.
         </div>
 
         <div class="education-block">
             <h3>GameMaker Studio Debugger</h3>
             
             <h4></h4>
-            The Gamemaker Studio 1.4 Debugger was an essential tool in the development of The Pixelated Miner. 
-            It allowed me to step through the game's code, line by line, and quickly identify and fix any errors or bugs in the code.
+            A debugging tool that allows developers to test and troubleshoot their games by providing real-time feedback on variables, breakpoints, and other aspects of the code.
 
         </div>
 
-
         <div class="education-block">
-            <h3>Bfxr</h3>
+            <h3>Version control Github</h3>
             
             <h4></h4>
-            The tool allows users to create unique sound effects by adjusting various parameters such as frequency, waveform, and volume. 
-            In the project, Bfxr was used to create the sound effect for the button when clicked.
+            A widely used version control system that enables developers to track changes to their code over time, 
+            collaborate with others on the same project, and roll back to previous versions if necessary.
+
+        </div>
+        <div class="education-block">
+            <h3>GML</h3>
+            
+            <h4></h4>
+            A scripting language used in GameMaker Studio that allows developers to create custom behaviors 
+            and functionality for their games. It is similar in syntax to other programming languages like C++ and Java
 
         </div>
         <!-- End .education-block -->
@@ -198,12 +198,11 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project no-image">
-                        <h3>The lighting system</h3>
+                        <h3>Intermission</h3>
                         <p>
-                            Lots of torches has been placed on the ground, illuminating the surrounding area. 
-                            The lighting system dynamically adjusts as the player moves through the underground.
+                            Survive the zombie apocalypse and dash to safety in Zombie Dash!
                         </p>
-                        <img src="images/the_pixelated_miner/screenshot_large_1.png">
+                        <img src="../../images/zombie_dash/intermission.PNG" style="max-width: 100%; height: auto;">
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -215,11 +214,11 @@
 
                 <div class="project shadow-large">
                     <div class="project no-image">
-                        <h3>Random Resource Generation</h3>
+                        <h3>Zombies</h3>
                         <p>
-                            The player can see a mix of common and rare ores, with the most common ones appearing near the surface and the rarer ones appearing deeper down.
+                            Restock and prepare for the next wave in Zombie Dash's intermission. Upgrade your damage or heal up!
                         </p>
-                        <img src="images/the_pixelated_miner/screenshot_large_2.png">
+                        <img src="../../images/zombie_dash/zombies.PNG" style="max-width: 100%; height: auto;">
                     </div>
                     <!-- End .project-image -->
                     
@@ -240,23 +239,28 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project no-image">
-                        <h3>Random Resource and Terrain Generation</h3>
-                        <h4>Generating the resources</h4>
+                        <h3>Health bars</h3>
+                        
                         <p>
-                            How do I go about creating an algorithm to generate random resources spread out in the game world, 
-                            controlling the quantity and depth of each type of resource? Well, one solution I found was to use the 
-                            irandom_range function to generate a random number between, for example, 200-300. Using the irandom_range function, 
-                            I could generate random numbers for the x and y positions to be used to decide where the game will 
-                            place an instance of the resource. 
-                            Along with using the instance_number function to control the amount that will be created.
+                            Creating health bars was a challenging aspect of the game development process. 
+                            One major challenge was figuring out how to assign a health bar to both the player and each individual zombie in the game. 
+                            Through this challenge, I was able to improve my understanding of objects in GameMaker Studio 2 and develop more advanced code for creating 
+                            health bars and other related elements.
                         </p>
-                        <script src="https://gist.github.com/filipethornhill/ee5dc8fb4d61d5fe5675f56de808617a.js"></script>
-                        <h4>Snapping the ores to a 32 by 32 grid</h4>
-                        <script src="https://gist.github.com/filipethornhill/09702c480706be8ca7b85ed0a4a53df4.js"></script>
-                        <h4>Creating the dirt instances</h4>
-                        <script src="https://gist.github.com/filipethornhill/c8da895f9d82078494c8f09f64776d7a.js"></script>
-                        <h4>Deleting dirt instances spawned on top of any resources</h4>
-                        <script src="https://gist.github.com/filipethornhill/2b2aac6734ea3bc549fb0682572b8eb8.js"></script>
+                        <script src="https://gist.github.com/filipethornhill/b75f127e3e45f221ecb68cd21758948f.js"></script>
+                        <h3>Assigning hit points and setting the width</h3>
+                        <p>
+                            Initially, I faced the issue of how to assign hit points without increasing the width of the health bar. 
+                            To address this, I learned to divide the hit points by the maximum hit points to create a percentage, 
+                            then multiply the percentage by the maximum health bar width to get the actual width of the health bar. 
+                        </p>
+                        <script src="https://gist.github.com/filipethornhill/cbcaf58a112cc57b81dbcf3070f3e417.js"></script>
+                        <h3>Forgeting to check the drawing colours</h3>
+                        <p>
+                            During development, I encountered issues with the health bar seemingly not working. 
+                            I eventually realized that I forgot to set the background drawing color of the health bar to white. The code below shows the fixed version.
+                        </p>
+                        <script src="https://gist.github.com/filipethornhill/8743bc2cb0dcc63e0f5dc4753e4b1d09.js"></script>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -264,19 +268,20 @@
                     </div>
                     <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
+
                 <div class="project shadow-large">
                     <div class="project no-image">
-                        <h3>The lighting system</h3>
+                        <h3>Spawning zombie instances</h3>
+                        
                         <p>
-                            One of the challenges I faced while developing a lighting system was dynamically adjusting the lighting based on the player's actions, such as placing torches or moving. 
-                            To overcome this, I utilized GameMaker's surface tool, which acts like a blank canvas. 
-                            By drawing a black rectangle and using blend modes, I was able to cut out a circle from the rectangle, 
-                            which allowed me to adjust the lighting based on the player's actions.
+                            The challenge was to figure out how to spawn zombies equally from multiple spawn points in the game. 
+                            Initially, I tried to divide the number of spawn points by the number of zombies to be spawned in each wave. 
+                            However, this proved to be difficult to implement, especially when I had an unequal number of spawn points or zombies to spawn. 
+                            This made it more difficult to code.
+
+                            So, I decided to simplify the code by randomly choosing a spawn point to spawn from.
                         </p>
-                       
-                        <script src="https://gist.github.com/filipethornhill/36a1762016021f3eb78acf3cdf341dc4.js"></script>
-               
+                        <script src="https://gist.github.com/filipethornhill/c8ff3562f1052c95556d7957bf98f3e6.js"></script>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -284,8 +289,6 @@
                     </div>
                     <!-- End .project-info -->
                 </div>
-               
-                <!-- End .project -->
             </div>
         </div>
     </div>
@@ -331,7 +334,7 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="../../js/scripts.min.js"></script>
 </body>
 
 </html>
