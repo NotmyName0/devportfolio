@@ -8,8 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "file": "C:\\Users\\Filipe\\Desktop\\Main Folder\\Infomation and software technologies\\Portfolio\\devportfolio\\index.html"
         }
     ]
 }
